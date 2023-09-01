@@ -1,0 +1,51 @@
+h1{
+    font-weight: bold;
+    text-transform: uppercase ;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: antiquewhite;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+legend, fieldset{
+    border: 5px outset #f7e987;
+    color: #435334;
+    background-color: #cedebd;
+    padding: 10px;
+    background-image: linear-gradient(
+        to right, #c8e4b2, #9ed2be, #7eaa92, #ffd9b7
+    );
+}
+h2{
+    text-align: center;
+}
+p, li, {
+    text-align: justify;
+    color: #5d5d36;
+    line-height: 20px;
+    font-size: 14pt;
+}
+
+a.link_gambar:link, a.link_gambar:visited{
+    text-decoration: none;
+    color: none;
+    border-width: none;
+    background-color: antiquewhite;
+}
+a.link_gambar:hover{
+    font-weight: none;
+    text-decoration: none;
+    color: none;
+    border: none;
+    background-color: none;
+}
+@font-face{
+    font-family: Hoppin;
+    src: url(hoppin/Hoppin.ttf);
+}
+*{
+    font-family: Hoppin;
+}

@@ -1,0 +1,47 @@
+.nav{
+    background-color: #FFCCCC;
+    border: none;
+}
+.kiri, .kanan{
+    background-color:#FFDDCC;
+}
+legend, fieldset{
+	border:10px outset #3c3b34;
+	border-radius:30px;
+	color:#667756;
+	background-color:#CEDEBD;
+	padding:5px;
+	background-image: linear-gradient(to right, #C8E4B2, #9ED2BE, #7EAA92, #FFD9B7);
+}
+
+
+.kepala{
+	background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJwMtysyO1DwOS25yn9D6E5xRSvBU3QzLQvoWES_CojF9NrcaQxiDvLcRU5Yu5mgd7FeU&usqp=CAU');
+	background-repeat:repeat;
+	background-attachment:fixed;
+	margin:1cm 2cm 1cm 5cm; /
+}
+
+
+
+a:link, a:visited{
+	font-weight:bold;
+	color:#435334;
+	padding:5px;
+}
+a:hover{
+	text-decoration:none;
+	color:rgb(38, 0, 255);
+	border:2px dashed black;
+
+}
+
+
+@font-face {
+	font-family: Hoppin;
+	src: url('hoppin/Hoppin.ttf');
+  }
+  
+  *{ /* universal untuk seluruh selector */
+	font-family: Hoppin;
+  }
